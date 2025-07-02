@@ -653,12 +653,13 @@ footer {
         margin: 0% 10%;
         animation: width 5s infinite alternate linear;
         transition: 100%;
-        heigh: auto;
+        height: auto;
     }
     
     .glider-track {
         display: flex;
         width: 100%;
+        height: auto;
     }
 
     .box-item {
