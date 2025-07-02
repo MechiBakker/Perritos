@@ -41,12 +41,11 @@
 .glider-slide {
   display: flex;
   width: 100%;
-  height:100%;
 }
 
 .glider-slide img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .glider::-webkit-scrollbar {
