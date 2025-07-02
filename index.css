@@ -650,7 +650,6 @@ footer {
     .lista .glider {
         display: flex;
         width: 95%;
-        margin: 0% 10%;
         animation: width 5s infinite alternate linear;
         transition: 100%;
     }
