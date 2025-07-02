@@ -239,5 +239,35 @@
     }
   });
 </script>
+    <script>
+  function ajustarAlturaBoxItems() {
+    const items = document.querySelectorAll('.box-item');
+    let maxAltura = 0;
+
+    items.forEach(item => {
+      const altura = item.offsetHeight;
+      if (altura > maxAltura) maxAltura = altura;
+    });
+
+    items.forEach(item => {
+      item.style.height = `${maxAltura}px`;
+    });
+  }
+
+  window.addEventListener('load', () => {
+    // Esperamos a que Instagram cargue sus iframes
+    setTimeout(() => {
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
+      }
+
+      // Le damos un tiempo para que el render finalice
+      setTimeout(() => {
+        ajustarAlturaBoxItems();
+      }, 1500); // Tiempo extra para carga del embed
+    }, 1000);
+  });
+</script>
+
 </body>
 </html>
