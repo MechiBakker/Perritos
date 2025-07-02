@@ -642,7 +642,7 @@ footer {
         overflow-x: hidden;
         overflow-y: hidden;
         width: 90%;
-        height: 150px;
+        height: auto;
         flex-direction: column;
         transition: all 1s;
     }
@@ -657,7 +657,7 @@ footer {
     .glider-track {
         display: flex;
         width: 100%;
-        heigh: 75%;
+        heigh: 100%;
     }
 
     .box-item {
