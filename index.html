@@ -239,32 +239,6 @@
     }
   });
 </script>
-<script>
-  function ajustarAlturaExacta() {
-    const iframes = document.querySelectorAll('.box-item iframe');
-
-    iframes.forEach(iframe => {
-      iframe.addEventListener('load', () => {
-        const altura = iframe.offsetHeight;
-
-        const contenedor = iframe.closest('.box-item');
-        if (contenedor && altura > 0) {
-          contenedor.style.height = altura + 'px';
-        }
-      });
-    });
-  }
-
-  window.addEventListener('load', () => {
-    // Procesar embeds de IG
-    if (window.instgrm) window.instgrm.Embeds.process();
-
-    // Esperar a que Instagram genere los iframes
-    setTimeout(() => {
-      ajustarAlturaExacta();
-    }, 2000); // Espera a que IG inyecte los iframes
-  });
-</script>
     <script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
