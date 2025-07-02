@@ -235,13 +235,6 @@ body {
     overflow: hidden; /* para que no se desborde el embed */
 }
 
-.box-item blockquote.instagram-media {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.box-item iframe 
-
 button {
     display: flex;
     flex-direction: row;
