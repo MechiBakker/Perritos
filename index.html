@@ -240,33 +240,29 @@
   });
 </script>
 <script>
-  function ajustarAlturaInstagram() {
+  function ajustarAlturaExacta() {
     const iframes = document.querySelectorAll('.box-item iframe');
-    let alturaMax = 0;
 
-    // Obtener la altura máxima de los iframes de Instagram
     iframes.forEach(iframe => {
-      if (iframe.offsetHeight > alturaMax) {
-        alturaMax = iframe.offsetHeight;
-      }
-    });
+      iframe.addEventListener('load', () => {
+        const altura = iframe.offsetHeight;
 
-    // Aplicar esa altura a todos los .box-item
-    const items = document.querySelectorAll('.box-item');
-    items.forEach(item => {
-      item.style.height = alturaMax + 'px';
+        const contenedor = iframe.closest('.box-item');
+        if (contenedor && altura > 0) {
+          contenedor.style.height = altura + 'px';
+        }
+      });
     });
   }
 
   window.addEventListener('load', () => {
-    setTimeout(() => {
-      if (window.instgrm) window.instgrm.Embeds.process();
+    // Procesar embeds de IG
+    if (window.instgrm) window.instgrm.Embeds.process();
 
-      // Esperar que Instagram cargue bien sus iframes
-      setTimeout(() => {
-        ajustarAlturaInstagram();
-      }, 1500);
-    }, 500);
+    // Esperar a que Instagram genere los iframes
+    setTimeout(() => {
+      ajustarAlturaExacta();
+    }, 2000); // Espera a que IG inyecte los iframes
   });
 </script>
     <script async src="//www.instagram.com/embed.js"></script>
