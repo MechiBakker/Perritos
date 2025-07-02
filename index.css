@@ -232,16 +232,24 @@ body {
     margin: 0% 0.2%;
     margin-bottom: 4%;
     overflow: hidden; /* para que no se desborde el embed */
+    padding: 0;
+    height: fit-content; /* ✅ solo lo necesario */
 }
 
 .box-item blockquote.instagram-media {
-  width: 100% !important;
   margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: fit-content !important;
+  overflow: hidden;
 }
 
-.box-item iframe {
+.box-item blockquote.instagram-media {
+  margin: 0 !important;
+  padding: 0 !important;
   width: 100% !important;
-  border: none;
+  height: fit-content !important;
+  overflow: hidden;
 }
 
 button {
