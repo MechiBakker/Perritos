@@ -642,7 +642,7 @@ footer {
         overflow-x: hidden;
         overflow-y: hidden;
         width: 90%;
-        height: 300px;
+        height: 700px;
         flex-direction: column;
         transition: all 1s;
     }
