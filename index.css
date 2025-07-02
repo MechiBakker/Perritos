@@ -224,6 +224,7 @@ body {
 
 .box-item {
     display: flex;
+    aspect-ratio: 1 / 2;
     flex-direction: column;
     height: 80%;
     margin: 0% 0.2%;
