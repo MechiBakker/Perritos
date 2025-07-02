@@ -665,7 +665,7 @@ footer {
         align-items: baseline;
         flex-direction: column;
         width: 80%;
-        height: 80%;
+        height: auto;
     }
 
     button {
