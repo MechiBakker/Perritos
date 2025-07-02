@@ -223,7 +223,7 @@ body {
 .box-item {
     display: flex;
     flex-direction: column;
-    justify-content: first baseline;
+    justify-content: baseline;
     aspect-ratio: 1 / 1;
     align-items: baseline;
     background-color:rgba(19, 121, 99, 0.1);
