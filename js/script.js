@@ -31,38 +31,6 @@ if (window.innerWidth >= 768) {
     });
   });
 
-  
-  function ajustarAlturaInstagram() {
-    const iframes = document.querySelectorAll('.box-item iframe');
-    let alturaMax = 0;
-
-    // Obtener la altura máxima de los iframes de Instagram
-    iframes.forEach(iframe => {
-      if (iframe.offsetHeight > alturaMax) {
-        alturaMax = iframe.offsetHeight;
-      }
-    });
-
-    // Aplicar esa altura a todos los .box-item
-    const items = document.querySelectorAll('.box-item');
-    items.forEach(item => {
-      item.style.height = alturaMax + 'px';
-    });
-  }
-
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      if (window.instgrm) window.instgrm.Embeds.process();
-
-      // Esperar que Instagram cargue bien sus iframes
-      setTimeout(() => {
-        ajustarAlturaInstagram();
-      }, 1500);
-    }, 500);
-  });
-
-
-
 } if (window.innerWidth < 768) {
   window.addEventListener('load', function(){
     let opciones = {
