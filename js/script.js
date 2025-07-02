@@ -130,6 +130,6 @@ document.getElementById("boton-ir-transito").onclick = function() {
       setTimeout(() => {
         ajustarAlturaInstagram();
       }, 1500);
-    }, 500);
+    }, 1000);
   });
 
