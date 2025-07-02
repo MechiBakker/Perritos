@@ -239,35 +239,35 @@
     }
   });
 </script>
-    <script>
-  function ajustarAlturaBoxItems() {
-    const items = document.querySelectorAll('.box-item');
-    let maxAltura = 0;
+<script>
+  function ajustarAlturaInstagram() {
+    const iframes = document.querySelectorAll('.box-item iframe');
+    let alturaMax = 0;
 
-    items.forEach(item => {
-      const altura = item.offsetHeight;
-      if (altura > maxAltura) maxAltura = altura;
+    // Obtener la altura máxima de los iframes de Instagram
+    iframes.forEach(iframe => {
+      if (iframe.offsetHeight > alturaMax) {
+        alturaMax = iframe.offsetHeight;
+      }
     });
 
+    // Aplicar esa altura a todos los .box-item
+    const items = document.querySelectorAll('.box-item');
     items.forEach(item => {
-      item.style.height = `${maxAltura}px`;
+      item.style.height = alturaMax + 'px';
     });
   }
 
   window.addEventListener('load', () => {
-    // Esperamos a que Instagram cargue sus iframes
     setTimeout(() => {
-      if (window.instgrm) {
-        window.instgrm.Embeds.process();
-      }
+      if (window.instgrm) window.instgrm.Embeds.process();
 
-      // Le damos un tiempo para que el render finalice
+      // Esperar que Instagram cargue bien sus iframes
       setTimeout(() => {
-        ajustarAlturaBoxItems();
-      }, 1500); // Tiempo extra para carga del embed
-    }, 1000);
+        ajustarAlturaInstagram();
+      }, 1500);
+    }, 500);
   });
 </script>
-<script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
