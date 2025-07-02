@@ -118,7 +118,7 @@ document.getElementById("boton-ir-transito").onclick = function() {
     // Aplicar esa altura a todos los .box-item
     const items = document.querySelectorAll('.box-item');
     items.forEach(item => {
-      item.style.height =((alturaMax + 150) + 'px';
+      item.style.height =((alturaMax * 3) + 'px';
     });
   }
 
