@@ -129,7 +129,7 @@ document.getElementById("boton-ir-transito").onclick = function() {
       // Esperar que Instagram cargue bien sus iframes
       setTimeout(() => {
         ajustarAlturaInstagram();
-      }, 1000);
+      }, 1500);
     }, 500);
   });
 
