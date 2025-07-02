@@ -636,14 +636,14 @@ footer {
         margin: 0%;
         height: auto;
     }
-  
-   .lista {
+
+    .lista {
         display: flex;
         flex-direction: row;
         overflow-x: hidden;
         overflow-y: hidden;
         width: 90%;
-        height: 80%;
+        height: auto;
         flex-direction: column;
         transition: all 1s;
     }
@@ -654,22 +654,21 @@ footer {
         margin: 0% 10%;
         animation: width 5s infinite alternate linear;
         transition: 100%;
-        height: auto;
     }
     
     .glider-track {
         display: flex;
         width: 100%;
-        height: auto;
     }
 
     .box-item {
         display: flex;
-        align-items: baseline;
+        justify-content: center;
         flex-direction: column;
         width: 80%;
         height: auto;
-   }
+        margin-bottom: 2%;
+    }
 
     button {
         display: flex;
