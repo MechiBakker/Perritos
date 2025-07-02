@@ -236,6 +236,10 @@ body {
     height: fit-content; /* ✅ solo lo necesario */
 }
 
+.box-item {
+  max-height: 480px; /* o lo que veas que mide el post */
+}
+
 .box-item blockquote.instagram-media {
   margin: 0 !important;
   padding: 0 !important;
