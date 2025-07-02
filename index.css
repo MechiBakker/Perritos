@@ -229,7 +229,6 @@ body {
     align-items: center;     /* centra el contenido horizontalmente */
     background-color: rgba(19, 121, 99, 0.1);
     box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
-    height: 350px; /* <--- fijá la altura que desees */
     margin: 0% 0.2%;
     margin-bottom: 4%;
     overflow: hidden; /* para que no se desborde el embed */
