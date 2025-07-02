@@ -223,38 +223,18 @@ body {
 }
 
 .box-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* centra el contenido verticalmente */
-    align-items: center;     /* centra el contenido horizontalmente */
-    background-color: rgba(19, 121, 99, 0.1);
-    box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
-    margin: 0% 0.2%;
-    margin-bottom: 4%;
-    overflow: hidden; /* para que no se desborde el embed */
-    padding: 0;
-    height: fit-content; /* ✅ solo lo necesario */
+  overflow: hidden;
+  margin: 0 10px 20px;
+  padding: 0;
+  background: rgba(19, 121, 99, 0.1);
+  box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
 }
 
-.box-item {
-  max-height: 480px; /* o lo que veas que mide el post */
-}
-
-.box-item blockquote.instagram-media {
+.instagram-media {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100% !important;
-  height: fit-content !important;
-  overflow: hidden;
 }
 
-.box-item blockquote.instagram-media {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
-  height: fit-content !important;
-  overflow: hidden;
-}
 
 button {
     display: flex;
