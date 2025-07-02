@@ -233,6 +233,13 @@ body {
     transform: scale(0.85); 
 }
 
+.glider-slide .box-item {
+  transform: scale(0.8);
+  transform-origin: top center;
+  overflow: hidden;
+}
+
+
 button {
     display: flex;
     flex-direction: row;
