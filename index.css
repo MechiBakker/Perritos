@@ -216,6 +216,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 30px;
+    margin-bottom: 5%;
     transition: ease 1s;
 }
 
