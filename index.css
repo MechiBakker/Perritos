@@ -657,6 +657,7 @@ footer {
     .glider-track {
         display: flex;
         width: 100%;
+        heigh: 50%;
     }
 
     .box-item {
