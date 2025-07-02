@@ -223,11 +223,14 @@ body {
 }
 
 .box-item {
-  overflow: hidden;
-  margin: 0 10px 20px;
-  padding: 0;
-  background: rgba(19, 121, 99, 0.1);
-  box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
+    display:center;
+    overflow: hidden;
+    justify-content:center;
+    align--items: baseline;
+    margin: 0 10px 20px;
+    padding: 0;
+    background: rgba(19, 121, 99, 0.1);
+    box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
 }
 
 .instagram-media {
