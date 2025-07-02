@@ -653,6 +653,7 @@ footer {
         margin: 0% 10%;
         animation: width 5s infinite alternate linear;
         transition: 100%;
+        heigh: auto;
     }
     
     .glider-track {
