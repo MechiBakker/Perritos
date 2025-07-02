@@ -104,3 +104,8 @@ document.getElementById("boton-ir-transito").onclick = function() {
     }
   });
 
+if (window.instgrm) {
+    window.instgrm.Embeds.process();
+}
+
+
