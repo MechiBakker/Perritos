@@ -603,9 +603,11 @@ footer {
     }
 
     .grid {
-        display: flex;
+         display: flex;
         flex-direction: column;
+        justify-content: center;
         width: 90%;
+        margin-top: 10%;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
