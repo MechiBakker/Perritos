@@ -226,7 +226,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; /* centra el contenido verticalmente */
-    aspect-ratio: 2 / 1; /* cuadrado */
+    aspect-ratio: 1 / 2; /* cuadrado */
     align-items: center;     /* centra el contenido horizontalmente */
     background-color: rgba(19, 121, 99, 0.1);
     box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
@@ -238,16 +238,9 @@ body {
 .box-item blockquote.instagram-media {
     width: 100% !important;
     height: 100% !important;
-    margin: 0 auto !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.box-item iframe {
-    width: 100% !important;
-    height: auto !important;
-}
+.box-item iframe 
 
 button {
     display: flex;
