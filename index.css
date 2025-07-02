@@ -231,6 +231,7 @@ body {
     padding: 2%;
     margin: 0% 1%;
     margin-bottom: 20%;
+    overflow: hidden;
 }
 
 button {
