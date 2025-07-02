@@ -227,9 +227,9 @@ body {
     align-items: baseline;
     background-color:rgba(19, 121, 99, 0.1);
     box-shadow: 3px 3px 9px 1px rgba(130, 131, 131, 0.4);
-    height: 50%;
+    height: auto;
     margin: 0% 0.2%;
-    margin-bottom: -100px;
+    margin-bottom: 5%;
 }
 
 button {
