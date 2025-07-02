@@ -233,6 +233,18 @@ body {
     overflow: hidden;
 }
 
+.box-item blockquote.instagram-media {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+}
+
+.box-item iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+}
+
 button {
     display: flex;
     flex-direction: row;
