@@ -104,27 +104,4 @@ document.getElementById("boton-ir-transito").onclick = function() {
     }
   });
 
-if (window.instgrm) {
-    window.instgrm.Embeds.process();
-}
-
-window.addEventListener('load', () => {
-  const items = document.querySelectorAll('.box-item');
-  let maxHeight = 0;
-
-  // Esperar a que Instagram embeba bien los iframes
-  setTimeout(() => {
-    items.forEach(item => {
-      const itemHeight = item.offsetHeight;
-      if (itemHeight > maxHeight) {
-        maxHeight = itemHeight;
-      }
-    });
-
-    items.forEach(item => {
-      item.style.height = `${maxHeight}px`;
-    });
-  }, 1000); // le damos 1 segundo para que cargue el embed
-});
-
 
