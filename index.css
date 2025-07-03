@@ -720,7 +720,7 @@ footer {
     
     .icons {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: center;
         font-size: medium;
     }
