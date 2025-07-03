@@ -733,9 +733,9 @@ footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        margin-bottom: 0%;
+        margin-top: 2%;
         font-size: xx-small;
-        align-items: center;
+        align-items: right;
         margin-right: 5%;
     }
 
