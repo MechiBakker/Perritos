@@ -646,7 +646,6 @@ footer {
         height: 650px;
         flex-direction: column;
         transition: all 1s;
-        margin-bottom: 4%;
     }
     
     .lista .glider {
@@ -655,6 +654,7 @@ footer {
         margin: 0% 10%;
         animation: width 5s infinite alternate linear;
         transition: 100%;
+        margin-bottom: 4%;
     }
     
     .glider-track {
