@@ -731,9 +731,9 @@ footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        margin-right: 5%;
         margin-bottom: 0%;
         font-size: xx-small;
+        align-items: center;
     }
 
     footer {
@@ -759,9 +759,8 @@ footer {
         max-width: 100%;
         height: auto;
         margin: 0;
-        max-height: 70px; /* Aumentalo si la querés más grande */
+        max-height: 90px; /* Aumentalo si la querés más grande */
         width: auto;
-        font-size: small;
         justify-content: space-between;
         object-fit: contain;
     }
