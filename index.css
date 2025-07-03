@@ -748,12 +748,13 @@ footer {
         flex-direction: row;
         height: auto;
         max-height: 20vh;
+        margin-top: 2%;
     }
 
     footer .icons {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 50%;
         font-size: x-small;
         heigh: auto;
