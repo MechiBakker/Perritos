@@ -663,7 +663,7 @@ footer {
 
     .box-item {
         display: flex;
-        justify-content: center;
+        align-items: baseline;
         flex-direction: column;
         width: 80%;
         height: auto;
