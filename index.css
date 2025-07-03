@@ -747,8 +747,8 @@ footer {
         margin: 0;
         flex-direction: row;
         height: auto;
-        max-height: 20vh;
-        margin-top: 5%;
+        max-height: 25vh;
+        margin-top: 10%;
     }
 
     footer .icons {
