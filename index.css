@@ -710,13 +710,6 @@ footer {
         margin-top: 100px;
     }
 
-    .cuidados {
-        flex-direction: column;
-        text-align: center;
-        font-size: xx-small;
-    }
-    
-
     .contacto {
         flex-direction: column;
         justify-content:space-evenly;
@@ -761,6 +754,7 @@ footer {
     footer .icons {
         display: flex;
         flex-direction: column;
+        width: 50%;
         font-size: small;
     }
 
