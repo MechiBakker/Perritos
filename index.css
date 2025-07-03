@@ -723,6 +723,8 @@ footer {
         justify-content: space-around;
         text-align: center;
         font-size: medium;
+        align-items: center;
+        line-height: 0.5;
     }
 
     .medio {
@@ -734,6 +736,7 @@ footer {
         margin-bottom: 0%;
         font-size: xx-small;
         align-items: center;
+        margin-left: 5%;
     }
 
     footer {
