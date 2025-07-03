@@ -761,12 +761,12 @@ footer {
         display: flex;
         max-width: 100%;
         height: auto;
-        max-height: 50px; /* Aumentalo si la querés más grande */
+        max-height: 40px; /* Aumentalo si la querés más grande */
         width: auto;
         font-size: x-small;
         justify-content: space-between;
-        margin-top: 20%;
-        margin-bottom: -10%;
+        margin-top: 10%;
+        margin-bottom: -5%;
         object-fit: contain;
         align-items: left;
     }
