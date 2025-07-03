@@ -733,10 +733,10 @@ footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        margin-top: 3%;
+        margin-top: 2%;
         font-size: xx-small;
         align-items: right;
-        margin-right: 10%;
+        margin-left: 10%;
     }
 
     footer {
@@ -747,8 +747,8 @@ footer {
         margin: 0;
         flex-direction: row;
         height: auto;
-        max-height: 22vh;
-        margin-top: 10%;
+        max-height: 21vh;
+        margin-top: 5%;
     }
 
     footer .icons {
