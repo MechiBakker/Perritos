@@ -731,6 +731,7 @@ footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        margin-right: 5%;
         margin-bottom: 0%;
         font-size: xx-small;
     }
@@ -758,13 +759,11 @@ footer {
         display: flex;
         max-width: 100%;
         height: auto;
-        max-height: 50px; /* Aumentalo si la querés más grande */
+        max-height: 70px; /* Aumentalo si la querés más grande */
         width: auto;
         font-size: x-small;
         justify-content: space-between;
-        margin-top: 5%;
         object-fit: contain;
-        align-items: left;
     }
     
     footer a span {
