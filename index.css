@@ -749,6 +749,7 @@ footer {
     footer .medio {
         display: flex;
         widht: 50%;
+        margin: 0;
     }
 
     footer .icons {
