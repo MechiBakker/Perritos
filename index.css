@@ -736,7 +736,7 @@ footer {
         margin-top: 2%;
         font-size: xx-small;
         align-items: right;
-        margin-left: 10%;
+        margin-right: 20%;
     }
 
     footer {
@@ -748,7 +748,7 @@ footer {
         flex-direction: row;
         height: auto;
         max-height: 21vh;
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     footer .icons {
