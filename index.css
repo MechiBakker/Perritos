@@ -635,6 +635,7 @@ footer {
         overflow: hidden;
         margin: 0%;
         height: auto;
+        margin-bottom: 2%;
     }
 
     .lista {
@@ -643,7 +644,7 @@ footer {
         overflow-x: hidden;
         overflow-y: hidden;
         width: 90%;
-        height: 600px;
+        height: 650px;
         flex-direction: column;
         transition: all 1s;
     }
