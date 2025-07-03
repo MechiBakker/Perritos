@@ -770,7 +770,11 @@ footer {
         margin-bottom: -20%;
         object-fit: contain;
     }
-
+    
+    footer a span {
+        font-size: small;
+    }
+    
   header {
     display: flex;
     flex-direction: row;
