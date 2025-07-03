@@ -747,7 +747,7 @@ footer {
         margin: 0;
         flex-direction: row;
         height: auto;
-        min-height: 8vh;
+        max-height: 20vh;
     }
 
     footer .icons {
@@ -756,6 +756,7 @@ footer {
         justify-content: space-between;
         width: 50%;
         font-size: x-small;
+        heigh: auto;
     }
 
     .logofooter img {
