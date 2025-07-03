@@ -756,6 +756,7 @@ footer {
         flex-direction: column;
         width: 50%;
         font-size: small;
+        align-items: right;
     }
 
     .logofooter img {
@@ -764,11 +765,12 @@ footer {
         height: auto;
         max-height: 70px; /* Aumentalo si la querés más grande */
         width: auto;
+        font-size: small;
         justify-content: space-between;
         margin-top: 25%;
         margin-bottom: -20%;
         object-fit: contain;
-        align-items: left;
+        align-items: right;
     }
     
     footer a span {
