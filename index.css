@@ -736,7 +736,7 @@ footer {
         margin-bottom: 0%;
         font-size: xx-small;
         align-items: center;
-        margin-left: 5%;
+        margin-right: 5%;
     }
 
     footer {
@@ -753,6 +753,7 @@ footer {
     footer .icons {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 50%;
         font-size: x-small;
     }
