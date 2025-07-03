@@ -769,6 +769,7 @@ footer {
         margin-top: 25%;
         margin-bottom: -20%;
         object-fit: contain;
+        align-items: left;
     }
     
     footer a span {
