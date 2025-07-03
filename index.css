@@ -727,11 +727,13 @@ footer {
     }
 
     .medio {
+        display: flex;
+        widht: 50%;
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        margin-bottom: -15%;
-        margin-left: 12%;
+        margin-bottom: 0%;
+        margin-left: 3%;
         font-size: xx-small;
     }
 
@@ -744,12 +746,6 @@ footer {
         flex-direction: row;
         height: auto;
         min-height: 10vh;
-    }
-
-    footer .medio {
-        display: flex;
-        widht: 50%;
-        margin: 0;
     }
 
     footer .icons {
