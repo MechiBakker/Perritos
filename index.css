@@ -757,6 +757,7 @@ footer {
     footer .icons {
         display: flex;
         flex-direction: column;
+        font-size: small;
     }
 
     .logofooter img {
