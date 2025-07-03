@@ -724,7 +724,7 @@ footer {
         text-align: center;
         font-size: medium;
         align-items: center;
-        line-height: 0.5;
+        line-height: 0.2;
     }
 
     .medio {
@@ -757,7 +757,7 @@ footer {
         justify-content: space-evenly;
         width: 50%;
         font-size: x-small;
-        heigh: 75%;
+        heigh: auto;
     }
 
     .logofooter img {
