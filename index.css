@@ -734,7 +734,7 @@ footer {
         text-align: center;
         justify-content: center;
         margin-bottom: 0%;
-        margin-left: 3%;
+        margin-left: 8%;
         font-size: xx-small;
     }
 
@@ -743,7 +743,7 @@ footer {
         position: fixed;
         justify-content: space-between;
         bottom: 0;
-        margin: 1% 0;
+        margin: 0;
         flex-direction: row;
         height: auto;
         min-height: 10vh;
@@ -764,7 +764,7 @@ footer {
         max-height: 40px; /* Aumentalo si la querés más grande */
         width: auto;
         font-size: x-small;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 10%;
         margin-bottom: -5%;
         object-fit: contain;
