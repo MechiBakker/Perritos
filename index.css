@@ -734,7 +734,6 @@ footer {
         text-align: center;
         justify-content: center;
         margin-bottom: 0%;
-        margin-left: 8%;
         font-size: xx-small;
     }
 
@@ -746,7 +745,7 @@ footer {
         margin: 0;
         flex-direction: row;
         height: auto;
-        min-height: 10vh;
+        min-height: 8vh;
     }
 
     footer .icons {
