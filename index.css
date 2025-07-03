@@ -752,7 +752,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 50%;
-        font-size: small;
+        font-size: x-small;
         align-items: right;
     }
 
@@ -762,7 +762,7 @@ footer {
         height: auto;
         max-height: 70px; /* Aumentalo si la querés más grande */
         width: auto;
-        font-size: small;
+        font-size: x-small;
         justify-content: space-between;
         margin-top: 25%;
         margin-bottom: -20%;
@@ -771,7 +771,7 @@ footer {
     }
     
     footer a span {
-        font-size: small;
+        font-size: x-small;
     }
     
   header {
