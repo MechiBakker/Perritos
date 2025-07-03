@@ -635,7 +635,6 @@ footer {
         overflow: hidden;
         margin: 0%;
         height: auto;
-        margin-bottom: 2%;
     }
 
     .lista {
@@ -647,6 +646,7 @@ footer {
         height: 650px;
         flex-direction: column;
         transition: all 1s;
+        margin-bottom: 4%;
     }
     
     .lista .glider {
