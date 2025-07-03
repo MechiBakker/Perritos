@@ -720,7 +720,7 @@ footer {
     
     .icons {
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         text-align: center;
         font-size: medium;
         align-items: center;
@@ -748,13 +748,13 @@ footer {
         flex-direction: row;
         height: auto;
         max-height: 20vh;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
     footer .icons {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 50%;
         font-size: x-small;
         heigh: auto;
