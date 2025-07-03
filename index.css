@@ -454,7 +454,7 @@ h3 {
     font-style: oblique;
     line-height: 2;
     color: #F5793B;
-    text-shadow: 1px 1px #38629F;
+    text-shadow: 0.5px 0.5px white;
     padding: 20% 0% 3% 0%;
     margin-right: 2%;
 }
@@ -731,7 +731,7 @@ footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        margin-right: 5%;
+        margin-left: 5%;
         margin-bottom: 0%;
         font-size: xx-small;
     }
@@ -744,7 +744,7 @@ footer {
         margin: 0;
         flex-direction: row;
         height: auto;
-        min-height: 8vh;
+        min-height: 10vh;
     }
 
     footer .icons {
