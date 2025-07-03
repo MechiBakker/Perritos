@@ -719,8 +719,8 @@ footer {
     }
     
     .icons {
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
         text-align: center;
         font-size: medium;
     }
@@ -758,10 +758,10 @@ footer {
         display: flex;
         max-width: 100%;
         height: auto;
-        max-height: 30px; /* Aumentalo si la querés más grande */
+        max-height: 50px; /* Aumentalo si la querés más grande */
         width: auto;
         font-size: x-small;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 5%;
         object-fit: contain;
         align-items: left;
